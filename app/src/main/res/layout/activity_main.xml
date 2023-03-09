@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/galleryBtn"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gallery"/>
+
+    <ImageView
+        android:id="@+id/FacilitiesBtn"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/facility" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="481dp"
+        android:layout_height="271dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cover" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="236dp"
+        android:text="THE ORIZON"
+        android:textSize="21sp"
+        android:textStyle="bold|normal"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/roomBtn"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="270dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/room" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="389dp"
+        android:text="Room"
+        android:textSize="18sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="389dp"
+        android:text="Facilities"
+        android:textSize="18sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="319dp"
+        android:layout_marginTop="389dp"
+        android:text="Gallery"
+        android:textSize="18sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="440dp"
+        android:text="Hotel Information"
+        android:textSize="18sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="457dp"
+        android:text="The Orizon Hotel is a luxurious and elegant hotel located in the heart of Anytown USA. This hotel features 150 beautifully appointed rooms and suites, each equipped with modern amenities such as complimentary Wi-Fi, flat-screen TVs and room service. Guests can start their day with a delicious complimentary breakfast, and enjoy a delicious meal at the hotel's on-site restaurant and bar."
+        android:textSize="15sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
